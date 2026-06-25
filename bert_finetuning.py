@@ -1,6 +1,3 @@
-# BERT Fine-Tuning for Sentiment Classification
-# Checkpoint Submission
-
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
 from datasets import load_dataset
